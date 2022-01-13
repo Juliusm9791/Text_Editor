@@ -1,6 +1,6 @@
 /* app shell CSS */
 :root {
-  --primary: #31a9e1;
+  --primary: #2082af;
   --gray: #ececec;
   --whitesmoke: #f5f5f5;
   --dark: #222;
@@ -31,10 +31,12 @@ h1 {
   font-size: 22px;
   font-weight: 550;
   letter-spacing: 0.9px;
+  height: 55px;
 }
 
 .navbar-brand img {
   padding-top: 10px;
+  padding-right: 15px
 }
 
 .loading-spinner {

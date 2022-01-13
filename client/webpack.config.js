@@ -37,14 +37,14 @@ module.exports = () => {
         name: 'Text Editor',
         short_name: 'TE',
         description: 'Text Editor!',
-        background_color: '#225ca3',
-        theme_color: '#225ca3',
+        background_color: '#416b79',
+        theme_color: '#416b79',
         start_url: '/',
         publicPath: '/',
         icons: [
           {
             src: path.resolve('src/images/logo.png'),
-            sizes: [96, 128, 192, 256, 384, 512],
+            sizes: [48, 96, 128, 192, 256, 384, 512],
             destination: path.join('assets', 'icons'),
           },
         ],
